@@ -71,5 +71,5 @@ def encrypt(param):
     print(encrypted_text)
     return {"Encrpyted": encrypted_text}
 
-# if __name__ == "__main__":
-#     uvicorn.run(app, host="0.0.0.0", port=6969)
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=6969)
